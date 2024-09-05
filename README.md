@@ -16,7 +16,7 @@ Backend: Python, Flask
 NLP Model: Alibaba-NLP/gte-large-en-v1.5
 Data Storage: PostgreSQL
 APIs: YouTubeTranscriptApi, Pytube
-Language Models: SLM/LLM (Gamma 2: 2b)
+Language Models: SLM (Gemma 2: 2b)
 
 ## 1. Data Collection
 YouTubeTranscriptApi: Used to extract transcripts (captions) from YouTube videos and playlists. This will give you the textual content (if available) for analysis.
@@ -35,7 +35,7 @@ Handling missing transcripts for videos that do not have closed captions availab
 ## 3. Embeddings
 Alibaba-NLP/gte-large-en-v1.5: This model is used to convert the textual transcript data into embeddings—numerical representations of words, sentences, or paragraphs.
 These embeddings will allow for sophisticated natural language processing tasks, like clustering similar video content or performing semantic analysis.
-SLM / LLM (Gamma 2: 2b model): This is used to perform advanced analysis on the embeddings, possibly through a combination of summarization and other language understanding tasks.
+SLM (Gemma 2: 2b model): This is used to perform advanced analysis on the embeddings, possibly through a combination of summarization and other language understanding tasks.
 Embedding Workflow:
 
 Convert video transcripts into embeddings using Alibaba-NLP/gte-large-en-v1.5.
