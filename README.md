@@ -1,4 +1,4 @@
-# YouTube-Video-Summarization-and-Analysis using GenAI
+# YouTube-Video-Summarization-and-Analysis using SLM
 
 ## Project Overview
 This project allows users to summarize YouTube videos and playlists, extract metadata and transcripts, and analyze the textual content using natural language processing (NLP) embeddings. The system uses Alibaba-NLP/gte-large-en-v1.5 for embeddings and stores the data in a PostgreSQL database for further analysis.
