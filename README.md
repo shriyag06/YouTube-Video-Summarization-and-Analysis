@@ -1,5 +1,8 @@
 # YouTube-Video-Summarization-and-Analysis using SLM
 
+<img width="822" alt="image001" src="https://github.com/user-attachments/assets/cf60415f-ccfe-4f32-9fed-41d939f94a6a">
+
+
 ## Project Overview
 This project allows users to summarize YouTube videos and playlists, extract metadata and transcripts, and analyze the textual content using natural language processing (NLP) embeddings. The system uses Alibaba-NLP/gte-large-en-v1.5 for embeddings and stores the data in a PostgreSQL database for further analysis.
 
